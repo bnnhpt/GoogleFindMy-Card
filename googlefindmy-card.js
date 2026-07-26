@@ -1507,6 +1507,7 @@ class GoogleFindMyCard extends LitElement {
           attribution: '© OpenStreetMap contributors',
           maxZoom: 19,
           errorTileUrl: 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVR42mNk+M9QDwADhgGAWjR9awAAAABJRU5ErkJggg=='
+          referrerPolicy: 'origin'
         }).addTo(this._mapInstance);
 
         // Wait for tiles to render before invalidating size
